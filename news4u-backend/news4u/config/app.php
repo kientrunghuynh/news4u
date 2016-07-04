@@ -158,6 +158,11 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /*
+         * installed quickadmin
+         */
+        Laraveldaily\Quickadmin\QuickadminServiceProvider::class,
+
     ],
 
     /*
